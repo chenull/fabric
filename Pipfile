@@ -1,0 +1,27 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"e1839a8" = {path = ".", editable = true}
+
+
+[dev-packages]
+
+invocations = "<2.0,>=0.17"
+pytest-relaxed = "==1.0.0"
+pytest = "==3.1.2"
+pytest-cov = "==2.5.1"
+mock = "==1.0.1"
+"flake8" = "==2.4.0"
+coverage = "==3.7.1"
+codecov = "==1.6.3"
+Sphinx = "<1.7,>=1.4"
+alabaster = "<2.0,>=0.7"
+releases = "<2.0,>=0.7"
+semantic_version = "<2.5,>=2.4"
+twine = "==1.5"
